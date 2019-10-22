@@ -1,19 +1,16 @@
 name       : python-typing
-version    : 3.6.1
-release    : 2
+version    : 3.7.4.1
+release    : 3
 source     :
-    - https://pypi.python.org/packages/17/75/3698d7992a828ad6d7be99c0a888b75ed173a9280e53dbae67326029b60e/typing-3.6.1.tar.gz : c36dec260238e7464213dcd50d4b5ef63a507972f5780652e835d0228d0edace
+    - https://files.pythonhosted.org/packages/67/b0/b2ea2bd67bfb80ea5d12a5baa1d12bda002cab3b6c9b48f7708cd40c34bf/typing-3.7.4.1.tar.gz : 91dfe6f3f706ee8cc32d38edbbf304e9b7583fb37108fef38229617f8b3eba23
 license    : PSF
 component  : programming.python
 summary    : Typing – Type Hints for Python (<3.6)
 description: |
     This is a backport of the standard library typing module to Python versions older than 3.6. Typing defines a standard notation for Python function and variable type annotations. The notation can be used for documenting code in a concise, standard format, and it has been designed to also be used by static and runtime type checkers, static analyzers, IDEs and other tools.
 builddeps  :
-    - pkgconfig(python3)
     - python-setuptools
 build      : |
     %python_setup
-    %python3_setup
 install    : |
     %python_install
-    %python3_install

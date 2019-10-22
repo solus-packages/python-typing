@@ -2,15 +2,15 @@
     <Source>
         <Name>python-typing</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>PSF</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Typing – Type Hints for Python (&lt;3.6)</Summary>
         <Description xml:lang="en">This is a backport of the standard library typing module to Python versions older than 3.6. Typing defines a standard notation for Python function and variable type annotations. The notation can be used for documenting code in a concise, standard format, and it has been designed to also be used by static and runtime type checkers, static analyzers, IDEs and other tools.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-typing</Name>
@@ -19,21 +19,21 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/typing-3.6.1-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/typing-3.7.4.1-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/typing-3.7.4.1-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/typing-3.7.4.1-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/typing-3.7.4.1-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/typing.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/typing.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/__pycache__/typing.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/typing-3.6.1-py3.6.egg-info</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/typing.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-01-31</Date>
-            <Version>3.6.1</Version>
+        <Update release="3">
+            <Date>2019-10-22</Date>
+            <Version>3.7.4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
