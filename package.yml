@@ -1,6 +1,6 @@
 name       : python-typing
 version    : 3.7.4.1
-release    : 4
+release    : 5
 source     :
     - https://files.pythonhosted.org/packages/67/b0/b2ea2bd67bfb80ea5d12a5baa1d12bda002cab3b6c9b48f7708cd40c34bf/typing-3.7.4.1.tar.gz : 91dfe6f3f706ee8cc32d38edbbf304e9b7583fb37108fef38229617f8b3eba23
 license    : PSF
@@ -12,7 +12,5 @@ builddeps  :
     - python-setuptools
 build      : |
     %python_setup
-    %python3_setup
 install    : |
     %python_install
-    %python3_install
